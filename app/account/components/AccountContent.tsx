@@ -12,7 +12,7 @@ import Button from "@/components/Button";
 const AccountContent = () => {
   const router = useRouter();
   const subscribeModal = useSubscribeModal();
-  const { isLoading, subscription, user } = useUser();
+  const { isLoading, subscription, user, userDetails } = useUser();
 
   const [loading, setLoading] = useState(false);
 
@@ -38,6 +38,13 @@ const AccountContent = () => {
   };
   return (
     <div className="mb-7 px-6">
+      <div className="mb-3 inline-flex gap-x-1">
+        Welcome Back
+        <div className="text-green-500">
+          <b>{userDetails?.full_name}</b>
+        </div>
+        ,
+      </div>
       {!subscription && (
         <div className="flex flex-col gap-y-4">
           <p>No active plan.</p>
