@@ -112,12 +112,12 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
          w-full
          justify-end
          items-center
-         gap-x-5
+         gap-x-1
       "
       >
         <AiFillStepBackward
           onClick={onPlayPrevious}
-          size={30}
+          size={20}
           className="
           text-neutral-400
           cursor-pointer
@@ -139,11 +139,11 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
           cursor-pointer
         "
         >
-          <Icon size={30} className="text-black" />
+          <Icon size={22} className="text-black" />
         </div>
         <AiFillStepForward
           onClick={onPlayNext}
-          size={30}
+          size={20}
           className="
          text-neutral-400
          cursor-pointer
