@@ -2,6 +2,8 @@
 
 [spotify-aryandeelwal.vercel.app](spotify-aryandeelwal.vercel.app)
 
+![SpotifyPage](https://github.com/aryandeelwal/spotify/assets/89710210/ff9fd61f-3746-4966-b461-59c99b68ae35)
+
 
 ### Tech Stack
 ```
