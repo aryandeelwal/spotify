@@ -17,7 +17,8 @@ export default async function Home() {
     h-full
     w-full
     overflow-hidden
-    overflow-y-auto  
+    overflow-y-auto 
+    scrollbar scrollbar-thumb-green-800 scrollbar-track-green-800 scrollbar-thumb-rounded 
   "
     >
       <Header>

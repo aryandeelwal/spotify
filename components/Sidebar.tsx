@@ -69,7 +69,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
             ))}
           </div>
         </Box>
-        <Box className="overflow-y-auto h-full">
+        <Box className="overflow-y-auto h-full scrollbar scrollbar-thumb-green-800 scrollbar-track-green-800 scrollbar-thumb-rounded">
           <Library songs={songs} />
         </Box>
       </div>
